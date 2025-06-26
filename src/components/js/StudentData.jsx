@@ -35,8 +35,9 @@ const StudentData = ({ data, onBack }) => {
 
           <div className="authenticity-info">
             <p>
-              A autenticidade deste documento pode ser verificada na página da Universidade de São Paulo em{" "}
-              <strong>http://uspdigital.usp.br/webdoc</strong>. Informe o código de controle:{" "}
+              {/* A autenticidade deste documento pode ser verificada na página da Universidade de São Paulo em{" "} */}
+              {/* <strong>http://uspdigital.usp.br/webdoc</strong>.  */}
+              Código de controle:{" "}
               <strong>{data.controlCode}</strong>
             </p>
             <p className="page-info">Página 1 de 1</p>
