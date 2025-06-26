@@ -1,0 +1,167 @@
+.student-data-container {
+    min-height: 100vh;
+    background: #f5f5f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header {
+    background: #2ba3a8;
+    color: white;
+    padding: 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 20px;
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .usp-logo {
+    background: white;
+    color: #2ba3a8;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  
+  .usp-logo-img {
+    height: 80px;
+    width: auto;
+    background: white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .portal-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .document-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2ba3a8;
+  }
+  
+  .document-header h2 {
+    font-size: 20px;
+    color: #2ba3a8;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .document-header h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .document-content {
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .attestation-text {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  .issue-date {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  .authenticity-info {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #2ba3a8;
+    margin-bottom: 30px;
+  }
+  
+  .authenticity-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .page-info {
+    text-align: right;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .back-button {
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    background: #2ba3a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background: #238a8f;
+  }
+  
+  @media (max-width: 768px) {
+    .document-container {
+      margin: 10px;
+      padding: 20px;
+    }
+  
+    .header-content {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  
+    .logo-section {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .document-header h2 {
+      font-size: 18px;
+    }
+  
+    .document-header h3 {
+      font-size: 20px;
+    }
+  
+    .attestation-text,
+    .issue-date {
+      font-size: 14px;
+    }
+  }
+  
