@@ -13,7 +13,7 @@ function App() {
     // Simula validação - no caso real seria uma API
     if (code === "R9NI-KAQX-ZKEL-G4ZI") {
       setStudentData({
-        name: "Rebeca Vieira da Silva",
+        name: "Rebeca Vieira Monteiro",
         rg: "504849359",
         uspNumber: "16243582",
         course: "Curso de Especialização: MBA em Gestão de Pessoas",
